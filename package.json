@@ -1,0 +1,28 @@
+{
+  "name": "demo-winston",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AiNoTsubasa/demo-winston.git"
+  },
+  "author": "AiNoTsubasa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AiNoTsubasa/demo-winston/issues"
+  },
+  "homepage": "https://github.com/AiNoTsubasa/demo-winston#readme",
+  "dependencies": {
+    "@google-cloud/logging-winston": "^4.1.0",
+    "applicationinsights": "^1.0.8",
+    "aws-sdk": "^2.966.0",
+    "dotenv": "^10.0.0",
+    "winston": "^3.3.3",
+    "winston-azure-application-insights": "^3.0.0",
+    "winston-cloudwatch": "^3.0.1"
+  }
+}
